@@ -15,10 +15,9 @@ var key;
     
 for (key in employees) {
      
-document.write("Name:" + employees[key].name + "   Age:" + employees[key].age + "   Salary:" + employees[key].salary + "   City:" + employees[key].city + "   State:" + employees[key].state + "   Pincode:" + employees[key].pincode);
+console.log("Name:" + employees[key].name + " Age:" + employees[key].age +  " Salary:" + employees[key].salary +  " City:" + employees[key].city +  "  State:" + employees[key].state +  " Pincode:" + employees[key].pincode + '\n');
      
-document.write("<br>");
-     }
+   }
 
 
 }
